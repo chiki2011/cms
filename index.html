@@ -1,55 +1,83 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chiki's MIDI Studio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiki's MIDI Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Chiki's MIDI Studio</h1>
-        </header>
-        <main>
-            <section id="profile">
-                <h2>プロフィール</h2>
-                <p>名前: 千紀</p>
-                <p>誕生日: 2011年10月29日</p>
-                <p>性別: 男</p>
-                <p>好きなもの: 飛行機 (特にDC-10、A380)</p>
-            </section>
-            <section id="activities">
-                <h2>活動内容</h2>
-                <p>東方の音楽のMIDIなどを制作している1人で運営しているサークルです。</p>
-            </section>
-            <section id="rules">
-                <h2>MIDIについて</h2>
-                <p>1.サイト公開以降に制作した東方のMIDIのみ記載しているため、YouTubeに投稿されていてもここに書いてない場合があります。</p>
-                <p>2.基本的に1人で制作しています。誰かと協力して制作している場合、何かしらの記載があるはずです。</p>
-                <p>3.無断転載と再配布以外基本何やってもらっても構いません。</p>
-                <p>4.原作者様（ZUN）や東方アレンジの制作者様などからのご希望がありましたら配布を終了、もしくは有料化する場合があります。</p>
-                <p>5.趣味でやっていますがリクエストがありましたら、Discordなどで書いていただければするかもしれません。</p>
-                <p>6.それでは、制作したMIDIをお楽しみください。</p>
-            </section>
-            <section id="contact">
-                <h2>お問い合わせ</h2>
-                <p>メール: <a href="mailto:kaguyahime2345@gmail.com">kaguyahime2345@gmail.com</a></p>
-                <p>Discord: <a href="https://discord.com/users/rokuchiki">@rokuchiki</a></p>
-            </section>
-            <section id="discord">
-                <h2>Discordサーバー</h2>
-                 <p>Chiki's MIDI Studio: <a href="https://discord.gg/apyGZRTWcr">https://discord.gg/apyGZRTWcr</a></p>
-                 <p>※「千紀の公式サーバー」と別です。</p>
-            </section>
-            <section id="works">
-                <h2>MIDI</h2>
-                <h3>おてんば恋娘</h3>
-                <p><a href="https://www.mediafire.com/file/qgt53alsni9vvcz/%25E3%2581%258A%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25B0%25E6%2581%258B%25E5%25A8%2598.mid/file">MIDI（推奨）</a></p>
-                <p><a href="https://www.mediafire.com/file/g7yb8vxn7i7itrr/%25E3%2581%258A%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25B0%25E6%2581%258B%25E5%25A8%2598.mp3/file">MP3</a></p>
-                <p><a href="https://youtu.be/gazcmv4cmIo">YouTube</a></p>
-            </section>
-        </main>
-    </div>
+  <div class="container">
+    <header class="fade-in">
+      <div class="logo-container">
+        <div class="logo">
+          <i class="fas fa-music music-icon"></i>
+        </div>
+      </div>
+      <h1>Chiki's MIDI Studio</h1>
+      <p class="tagline">東方MIDIアレンジ</p>
+    </header>
+    <main>
+      <section id="profile" class="slide-in">
+        <h2><i class="fas fa-user"></i> プロフィール</h2>
+        <div class="profile-content">
+          <div class="profile-info">
+            <p><i class="fas fa-signature"></i> 名前: 千紀</p>
+            <p><i class="fas fa-birthday-cake"></i> 誕生日: 2011年10月29日</p>
+            <p><i class="fas fa-venus-mars"></i> 性別: 男</p>
+            <p><i class="fas fa-heart"></i> 好きなもの: 飛行機 (特にDC-10、A380)</p>
+          </div>
+        </div>
+      </section>
+      <section id="activities" class="slide-in">
+        <h2><i class="fas fa-compact-disc"></i> 活動内容</h2>
+        <p>東方の音楽のMIDIなどを制作している1人で運営しているサークルです。</p>
+      </section>
+      <section id="rules" class="slide-in">
+        <h2><i class="fas fa-scroll"></i> MIDIについて</h2>
+        <div class="rules-list">
+          <p><i class="fas fa-check-circle"></i> 1.サイト公開以降に制作した東方のMIDIのみ記載しているため、YouTubeに投稿されていてもここに書いてない場合があります。</p>
+          <p><i class="fas fa-check-circle"></i> 2.基本的に1人で制作しています。誰かと協力して制作している場合、何かしらの記載があるはずです。</p>
+          <p><i class="fas fa-check-circle"></i> 3.無断転載と再配布以外基本何やってもらっても構いません。</p>
+          <p><i class="fas fa-check-circle"></i> 4.原作者様（ZUN）や東方アレンジの制作者様などからのご希望がありましたら配布を終了、もしくは有料化する場合があります。</p>
+          <p><i class="fas fa-check-circle"></i> 5.趣味でやっていますがリクエストがありましたら、Discordなどで書いていただければするかもしれません。</p>
+          <p><i class="fas fa-check-circle"></i> 6.それでは、制作したMIDIをお楽しみください。</p>
+        </div>
+      </section>
+      <section id="contact" class="slide-in">
+        <h2><i class="fas fa-address-book"></i> お問い合わせ</h2>
+        <p><i class="fas fa-envelope"></i> メール: <a href="mailto:kaguyahime2345@gmail.com">kaguyahime2345@gmail.com</a></p>
+        <p><i class="fab fa-discord"></i> Discord: <a href="https://discord.com/users/rokuchiki">@rokuchiki</a></p>
+      </section>
+      <section id="discord" class="slide-in">
+        <h2><i class="fab fa-discord"></i> Discordサーバー</h2>
+        <div class="discord-info">
+          <p><i class="fas fa-server"></i> Chiki's MIDI Studio: <a href="https://discord.gg/apyGZRTWcr">https://discord.gg/apyGZRTWcr</a></p>
+          <p><i class="fas fa-info-circle"></i> ※「千紀の公式サーバー」と別です。</p>
+        </div>
+      </section>
+      <section id="works" class="slide-in">
+        <h2><i class="fas fa-file-audio"></i> MIDI</h2>
+        <div class="work-item">
+          <h3><i class="fas fa-music"></i> おてんば恋娘</h3>
+          <div class="download-links">
+            <a href="https://www.mediafire.com/file/qgt53alsni9vvcz/%25E3%2581%258A%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25B0%25E6%2581%258B%25E5%25A8%2598.mid/file"><i class="fas fa-download"></i> MIDI（推奨）</a>
+            <a href="https://www.mediafire.com/file/g7yb8vxn7i7itrr/%25E3%2581%258A%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25B0%25E6%2581%258B%25E5%25A8%2598.mp3/file"><i class="fas fa-file-audio"></i> MP3</a>
+            <a href="https://youtu.be/gazcmv4cmIo"><i class="fab fa-youtube"></i> YouTube</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="fade-in">
+      <p>&copy; 2025 Chiki's MIDI Studio</p>
+      <div class="music-animation">
+        <i class="fas fa-music note-1"></i>
+        <i class="fas fa-music note-2"></i>
+        <i class="fas fa-music note-3"></i>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
