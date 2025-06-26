@@ -30,7 +30,7 @@ body {
     radial-gradient(circle at 75px 75px, rgba(255, 255, 255, 0.025) 2%, transparent 0%); 
   background-size: 100px 100px; 
   /* fixedアイコンと固定ヘッダーのためにbodyのpadding-topを設定 */
-  padding-top: 150px; /* 例: ヘッダーとアイコンの高さ分を確保 */
+   /* 例: ヘッダーとアイコンの高さ分を確保 */
 }
 
 .container {
@@ -89,13 +89,13 @@ header {
   text-align: center; 
   padding: 20px 0; 
   border-bottom: 1px solid var(--border-color); 
-  position: fixed; /* ヘッダーを画面上部に固定 */
-  top: 0;
+  /*position: fixed; ヘッダーを画面上部に固定 */
+  /*top: 0;
   left: 0;
   width: 100%;
   background-color: var(--primary-bg); /* ヘッダーの背景色を明確に */
-  z-index: 1500; /* アイコンよりは低いが、他のコンテンツよりは高い */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* ヘッダーに影を追加（任意） */
+  /*z-index: 1500; アイコンよりは低いが、他のコンテンツよりは高い */
+  /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* ヘッダーに影を追加（任意） */
 }
 
 /* logo-container と logo の既存スタイルはそのまま活かすか、調整 */
