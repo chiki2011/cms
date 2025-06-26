@@ -30,7 +30,7 @@ body {
     radial-gradient(circle at 75px 75px, rgba(255, 255, 255, 0.025) 2%, transparent 0%); 
   background-size: 100px 100px; 
   /* fixedアイコンと固定ヘッダーのためにbodyのpadding-topを設定 */
-  padding-top: 100px; /* 例: ヘッダーとアイコンの高さ分を確保 */
+  padding-top: 150px; /* 例: ヘッダーとアイコンの高さ分を確保 */
 }
 
 .container {
@@ -87,9 +87,8 @@ section:nth-child(6) { animation-delay: 0.6s; }
 /* ヘッダー */
 header {
   text-align: center; 
-  padding: 40px 0; 
+  padding: 20px 0; 
   border-bottom: 1px solid var(--border-color); 
-  margin-bottom: 30px; 
   position: fixed; /* ヘッダーを画面上部に固定 */
   top: 0;
   left: 0;
